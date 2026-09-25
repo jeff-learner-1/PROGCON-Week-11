@@ -20,3 +20,4 @@ for i in range(0, len(numbers) - 1 + 1, 1):
     else:
         average = float(total) / count
 print(average)
+
