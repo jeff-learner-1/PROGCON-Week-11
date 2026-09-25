@@ -1,7 +1,5 @@
 """
 PROGCON Week 11 - Test Results and Reflection Summary
-GitHub Repository URL: https://github.com/jeff-learner-1/PROGCON-Week-11
-
 1. Four Test Arrays and Averages:
    - [22, 9, 0, 17] -> Sum: 48, Count: 4, Average: 12.0
    - [22, 0, 49, 8] -> Sum: 79, Count: 4, Average: 19.75
