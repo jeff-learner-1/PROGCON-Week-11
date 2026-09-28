@@ -4,9 +4,9 @@
         <attribute name="name" value="AVERAGE.1"/>
         <attribute name="authors" value="USER"/>
         <attribute name="about" value=""/>
-        <attribute name="saved" value="2026-09-28 11:15:10 AM"/>
+        <attribute name="saved" value="2026-09-28 11:48:04 AM"/>
         <attribute name="created" value="VVNFUjtERVNLVE9QLUNFVVJQOTM7MjAyNi0wOS0yNTsxMTozNzowOSBBTTsyNjY5"/>
-        <attribute name="edited" value="VVNFUjtERVNLVE9QLUNFVVJQOTM7MjAyNi0wOS0yODsxMToxNToxMCBBTTs1OzI3NzI="/>
+        <attribute name="edited" value="VVNFUjtERVNLVE9QLUNFVVJQOTM7MjAyNi0wOS0yODsxMTo0ODowNCBBTTs2OzI3ODI="/>
     </attributes>
     <function name="Main" type="None" variable="">
         <parameters/>
@@ -29,16 +29,8 @@
             <for variable="i" start="0" end="Size(numbers) - 1" direction="inc" step="1">
                 <assign variable="num" expression="numbers[i]"/>
                 <assign variable="total" expression="total + num"/>
-                <assign variable="count" expression="count + 1"/>
-                <if expression="count == 0">
-                    <then>
-                        <output expression="0.0" newline="True"/>
-                    </then>
-                    <else>
-                        <assign variable="average" expression="total / count"/>
-                    </else>
-                </if>
             </for>
+            <assign variable="average" expression="total / Size(numbers)"/>
             <output expression="average" newline="True"/>
         </body>
     </function>
